@@ -34,6 +34,6 @@ def generate_tracker_file(filename: str, data_list: list) -> None:
     print(f"CSV file '{filename}' has been generated.")
 
 
-generate_tracker("100 Day Progress tracker.csv", weigh_in_data)
-generate_tracker("Strength Progress Tracker.csv", strength_progress_data)
-generate_tracker("Body measurement sheet.csv", body_measurements_data)
+generate_tracker_file("100 Day Progress tracker.csv", weigh_in_data)
+generate_tracker_file("Strength Progress Tracker.csv", strength_progress_data)
+generate_tracker_file("Body measurement sheet.csv", body_measurements_data)
